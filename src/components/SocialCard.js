@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
 
 class SocialCard extends Component {
   render() {
@@ -7,15 +6,18 @@ class SocialCard extends Component {
       <div className="wrapper">
         <div className="card__container">
           <div className="card__top-image">
-            <img src="https://via.placeholder.com/150" alt="placeholder" />
+            <img src="https://via.placeholder.com/450x240" alt="placeholder" />
           </div>
 
           <div className="card__bottom-text">
-            <strong>Learning React? Start small.</strong>
+            <p>
+              <strong>Learning React? Start small.</strong>
+            </p>
             <p>
               Stuck in tutorial purgatory? The cure is to make tiny little
               experiment apps.
             </p>
+            <p>tryreact.io</p>
           </div>
         </div>
       </div>
